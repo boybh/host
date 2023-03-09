@@ -1,6 +1,3 @@
-iOS 15.7.3 v1.0.10-build313
-
-200
 
 #Varlens
 HOST,mid.zineapi.com,Fake iAP Policy
