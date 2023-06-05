@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-    if (dnsDomainIs(host, "buy.itunes.apple.com,api.revenuecat.com") || dnsDomainIs(host, "mitm.it"))
+    if (dnsDomainIs(host, "buy.itunes.apple.com") || dnsDomainIs(host, "mitm.it"))
         return "PROXY 104.21.79.123";
 
     return "DIRECT";
