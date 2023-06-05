@@ -1,0 +1,6 @@
+function FindProxyForURL(url, host) {
+    if (dnsDomainIs(host, "buy.itunes.apple.com, api.revenuecat.com") || dnsDomainIs(host, "mitm.it"))
+        return "PROXY https://wpad.langkhach89.workers.dev:443";
+
+    return "DIRECT";
+}
